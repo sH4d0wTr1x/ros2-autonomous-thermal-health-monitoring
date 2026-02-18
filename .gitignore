@@ -1,0 +1,109 @@
+# ROS 2 Build & Install
+build/
+install/
+log/
+*.egg-info/
+dist/
+*.egg
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+*.egg-info/
+.pytest_cache/
+*.pyc
+*.pyo
+*.mpy
+
+# C++ Build Artifacts
+*.o
+*.a
+*.so
+*.so.*
+*.dylib
+*.dSYM
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+.netrwhist
+.vim/
+*.code-workspace
+
+# Docker
+*.dockerfile
+.dockerignore
+Dockerfile.bak
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.log
+*_bak
+.~*
+
+# ROS 2 Specific
+devel/
+install_isolated/
+oscap_logs/
+.colcon/
+colcon_command_prefix_setup_py.sh
+colcon_command_prefix_setup_py.sh.env
+**/colcon_build.rc
+
+# Message & Service Generated Files
+**/msg_gen/
+**/srv_gen/
+
+# Testing
+.coverage
+htmlcov/
+
+# OS Files
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+ehthumbs.db
+
+# Misc
+*.orig
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Lock Files (optional - keep if you want reproducible builds)
+# Pipfile.lock
+# poetry.lock
