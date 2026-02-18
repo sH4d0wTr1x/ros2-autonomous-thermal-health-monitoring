@@ -1,0 +1,49 @@
+version: '3.8'
+
+services:
+
+  # ─────────────────────────────────────────────
+  # Option 1: Run ALL nodes together (recommended)
+  # ─────────────────────────────────────────────
+  temp_monitor_full:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: temp_monitor_system
+    stdin_open: true       # Keep container interactive
+    tty: true              # Enable colored terminal output
+    # Uncomment below if you need GUI (Linux only):
+    # environment:
+    #   - DISPLAY=$DISPLAY
+    # volumes:
+    #   - /tmp/.X11-unix:/tmp/.X11-unix
+
+  # ─────────────────────────────────────────────
+  # Option 2: Run nodes separately (for learning)
+  # ─────────────────────────────────────────────
+  sensor:
+    build:
+      context: .
+    container_name: temp_sensor_node
+    command: ros2 run temp_monitor_pkg temp_sensor
+    network_mode: host     # Allows ROS2 nodes across containers to communicate
+    tty: true
+    profiles: ["separate"] # Only runs with: docker compose --profile separate up
+
+  monitor:
+    build:
+      context: .
+    container_name: temp_monitor_node
+    command: ros2 run temp_monitor_pkg temp_monitor
+    network_mode: host
+    tty: true
+    profiles: ["separate"]
+
+  logger_node:
+    build:
+      context: .
+    container_name: temp_logger_node
+    command: ros2 run temp_monitor_pkg logger
+    network_mode: host
+    tty: true
+    profiles: ["separate"]
