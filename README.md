@@ -39,7 +39,7 @@ All three components communicate asynchronously using **ROS 2 topics**, demonstr
 
 ## 🔄 Architecture: The Sense-Think-Act Cycle
 
-The **Sense-Think-Act** cycle is a fundamental pattern in autonomous systems. Here's how your project demonstrates it:
+The **Sense-Think-Act** cycle is a fundamental pattern in autonomous systems. Here's the demonstration:
 
 ### 1. **SENSE** 🌡️ — Temperature Telemetry Acquisition
 ```
